@@ -2,7 +2,7 @@
 // GOOGLE GEMINI AI CONFIGURATION
 // ====================================
 // Lấy API key miễn phí tại: https://aistudio.google.com/app/apikey
-const GEMINI_API_KEY = 'AIzaSyANTTxQ9lByGzz8V5FoJp0ww9cqXuk82Yw';
+const GEMINI_API_KEY = 'AIzaSyAkQAMl3eCRm53xnWHb87J5yBO3Xb0cMfI';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent';
 
 // Knowledge Base (Embedded for context)
