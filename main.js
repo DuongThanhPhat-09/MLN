@@ -97,7 +97,7 @@ const chatInput = document.getElementById("chat-input");
 const chatMessages = document.getElementById("chat-messages");
 
 // GEMINI CONFIG
-const GEMINI_API_KEY = "AIzaSyAkQAMl3eCRm53xnWHb87J5yBO3Xb0cMfI";
+const GEMINI_API_KEY = "AIzaSyCi3hcmW4a3XUflwF2JlyEKfBEEkhGqzek";
 const GEMINI_API_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent";
 
