@@ -1,0 +1,59 @@
+{
+  "chapters": [
+    {
+      "title": "Chương I: Khái lược về Triết học",
+      "sections": [
+        {
+          "title": "Triết học là gì?",
+          "keywords": ["khái niệm triết học", "nguồn gốc triết học", "định nghĩa triết học"],
+          "content": "Triết học là hệ thống tri thức lý luận chung nhất của con người về thế giới; về vị trí, vai trò của con người trong thế giới ấy.\n\n### Nguồn gốc:\n1. **Nguồn gốc nhận thức:** Con người đạt đến khả năng khái quát hóa, rút ra cái chung từ muôn vàn sự kiện riêng lẻ.\n2. **Nguồn gốc xã hội:** Sự phân chia lao động trí óc và lao động chân tay, xã hội hình thành tầng lớp trí thức."
+        },
+        {
+          "title": "Vấn đề cơ bản của triết học",
+          "keywords": ["vấn đề cơ bản", "mối quan hệ giữa vật chất và ý thức", "tư duy và tồn tại"],
+          "content": "Theo Ăngghen: \"Vấn đề cơ bản lớn của mọi triết học là vấn đề quan hệ giữa tư duy với tồn tại (vật chất và ý thức)\".\n\n**Vấn đề có 2 mặt:**\n- **Mặt thứ nhất:** Cái nào có trước? Cái nào quyết định cái nào? (Dẫn đến sự phân chia Duy vật và Duy tâm).\n- **Mặt thứ hai:** Con người có khả năng nhận thức được thế giới hay không?"
+        },
+        {
+          "title": "Chủ nghĩa duy vật và Chủ nghĩa duy tâm",
+          "keywords": ["duy vật", "duy tâm", "siêu hình", "biện chứng"],
+          "content": "- **Chủ nghĩa duy vật:** Thừa nhận vật chất có trước, quyết định ý thức. Có 3 hình thức: Chất phác, Siêu hình và Biện chứng.\n- **Chủ nghĩa duy tâm:** Thừa nhận ý thức/tinh thần có trước. Chia thành: Duy tâm chủ quan và Duy tâm khách quan."
+        },
+        {
+          "title": "Biện chứng và Siêu hình",
+          "keywords": ["biện chứng", "siêu hình", "phương pháp"],
+          "content": "- **Phương pháp siêu hình:** Nhìn sự vật trong trạng thái cô lập, tĩnh tại, không biến đổi.\n- **Phương pháp biện chứng:** Nhìn sự vật trong mối liên hệ, vận động và phát triển không ngừng."
+        }
+      ]
+    },
+    {
+      "title": "Chương II: Lịch sử triết học trước Mác",
+      "sections": [
+        {
+          "title": "Triết học Ấn Độ cổ đại - Phật giáo",
+          "keywords": ["phật giáo", "buddha", "tứ diệu đế", "vô ngã", "vô thường"],
+          "content": "Triết học Phật giáo tập trung vào vấn đề nhân sinh và giải thoát.\n\n**Các quan điểm chính:**\n- **Vô ngã:** Không có cái \"tôi\" vĩnh hằng.\n- **Vô thường:** Mọi vật luôn biến đổi (Sinh - Trụ - Dị - Diệt).\n- **Tứ diệu đế:** 4 chân lý về nỗi khổ (Khổ đế, Tập đế, Diệt đế, Đạo đế)."
+        },
+        {
+          "title": "Triết học Trung Hoa - Nho gia",
+          "keywords": ["nho gia", "khổng tử", "nhân nghĩa", "tam cương", "ngũ thường"],
+          "content": "Nho gia do Khổng Tử sáng lập, chú trọng vào chính trị và đạo đức.\n\n- **Cốt lõi:** Đạo Nhân và Nghĩa.\n- **Tam cương:** Vua - tôi, Cha - con, Chồng - vợ.\n- **Ngũ thường:** Nhân, Nghĩa, Lễ, Trí, Tín.\n- **Chính danh:** Mỗi người phải làm đúng bổn phận theo danh vị của mình."
+        },
+        {
+          "title": "Triết học Trung Hoa - Đạo gia",
+          "keywords": ["đạo gia", "lão tử", "vô vi", "đạo và đức"],
+          "content": "Do Lão Tử sáng lập. \n- **Đạo:** Bản nguyên của vũ trụ, quy luật tự nhiên.\n- **Vô vi:** Sống thuận theo tự nhiên, không làm trái quy luật."
+        },
+        {
+          "title": "Triết học Hy Lạp cổ đại",
+          "keywords": ["hy lạp", "heraclit", "democrit", "platon", "aristot"],
+          "content": "- **Hêraclit:** Nhà biện chứng nổi tiếng (\"Không ai tắm hai lần trên cùng một dòng sông\").\n- **Đêmôcrít:** Thuyết nguyên tử (vật chất cấu tạo từ các hạt nhỏ bé).\n- **Platôn:** Chủ nghĩa duy tâm khách quan (Thế giới ý niệm).\n- **Arixtốt:** Bộ óc bách khoa, phê phán thuyết ý niệm của Platôn."
+        },
+        {
+          "title": "Triết học cổ điển Đức",
+          "keywords": ["cổ điển đức", "kant", "hegel", "feuerbach"],
+          "content": "- **Imanuen Cantơ:** Thuyết \"Vật tự nó\", giả thuyết về sự hình thành vũ trụ.\n- **G.V.F. Hêghen:** Đỉnh cao của phép biện chứng duy tâm.\n- **L. Phoiơbắc:** Chủ nghĩa duy vật nhân bản, phê phán tôn giáo."
+        }
+      ]
+    }
+  ]
+}

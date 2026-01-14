@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant | Meta-Phils</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">META-PHILS</div>
+                <button id="new-chat-btn" class="btn-primary">+ Cuộc trò chuyện mới</button>
+            </div>
+            <div class="chat-history" id="chat-history">
+                <!-- History items will be injected here -->
+            </div>
+            <div class="sidebar-footer">
+                <p class="sidebar-info">Meta-Phils AI v1.0</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="chat-main">
+            <header class="chat-header">
+                <div class="ai-info">
+                    <a href="index.html" class="back-btn" title="Quay lại trang chủ">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                        </svg>
+                    </a>
+                    <div class="ai-avatar-container">
+                        <div class="ai-avatar" id="ai-avatar">
+                            <div class="orb"></div>
+                            <div class="particles"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>AI Assistant</h1>
+                        <span class="status">Đang trực tuyến</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button id="delete-chat-btn" title="Xóa cuộc trò chuyện">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </header>
+
+            <div class="messages-container" id="chat-messages">
+                <!-- Messages will be injected here -->
+                <div class="welcome-screen" id="welcome-screen">
+                    <div class="welcome-icon">🧠</div>
+                    <h2>Chào mừng đến với Trợ lý Triết học</h2>
+                    <p>Tôi là chuyên gia về Triết học Mác - Lênin. Hãy bắt đầu một cuộc trò chuyện để cùng khám phá thế
+                        giới quan và phương pháp luận khoa học.</p>
+                    <div class="suggestions">
+                        <button onclick="quickAsk('Triết học là gì?')">"Triết học là gì?"</button>
+                        <button onclick="quickAsk('Vật chất quyết định ý thức như thế nào?')">"Vật chất và Ý
+                            thức"</button>
+                        <button onclick="quickAsk('Kể về các trường phái triết học phương Đông')">"Triết học phương
+                            Đông"</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="input-area">
+                <div class="input-wrapper">
+                    <textarea id="chat-input" placeholder="Nhập câu hỏi của bạn về triết học..." rows="1"></textarea>
+                    <button id="send-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+                <p class="disclaimer">AI có thể đưa ra câu trả lời dựa trên giáo trình Triết học Mác - Lênin chính
+                    thống.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>

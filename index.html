@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vật chất và Ý thức | Triết Học Mác - Lênin</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">META-PHILS</div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#hero">Trang chủ</a></li>
+            <li class="nav-item"><a href="#intro">Khởi đầu</a></li>
+            <li class="nav-item">
+                <a href="#matter">Kiến thức ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#matter">I. Phạm trù Vật chất</a></li>
+                    <li><a href="#consciousness">II. Nguồn gốc Ý thức</a></li>
+                    <li><a href="#relationship">III. Mối quan hệ Biện chứng</a></li>
+                    <li><a href="#meaning">IV. Ý nghĩa Phương pháp luận</a></li>
+                    <li><a href="#reflection">V. Liên hệ bản thân</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#examples">Ví dụ</a></li>
+            <li class="nav-item"><a href="#contact"
+                    style="background: var(--accent); color: #fff; padding: 0.6rem 1.2rem; border-radius: 50px;">Liên
+                    hệ</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="hero" style="background-image: linear-gradient(rgba(26,5,5,0.8), rgba(26,5,5,0.8)), url('images/hero_banner.png'); background-size: cover; background-position: center;">
+        <div class="animate-on-scroll">
+            <h1><span class="gradient-text">Vật chất & Ý thức</span></h1>
+            <p>Khám phá bản chất của sự tồn tại qua lăng kính Triết học Mác - Lênin. Một hành trình từ thế giới khách
+                quan đến tư duy sáng tạo của con người.</p>
+            <div style="margin-top: 2rem; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#intro"
+                    style="text-decoration: none; color: #fff; border: 1px solid var(--accent); padding: 1rem 2.5rem; border-radius: 50px; font-weight: 600; transition: 0.3s; display: inline-block;">Khám
+                    phá ngay</a>
+                <a href="chatbot.html"
+                    style="text-decoration: none; color: #fff; border: 1px solid var(--accent); background: rgba(123, 97, 255, 0.1); padding: 1rem 2.5rem; border-radius: 50px; font-weight: 600; transition: 0.3s; display: inline-block;">Mở
+                    Assistant Toàn màn hình</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div style="width: 2px; height: 30px; background: var(--accent); margin-top: 10px;"></div>
+        </div>
+    </header>
+
+    <section id="intro" style="background: rgba(123, 97, 255, 0.01);">
+        <h2 class="section-title animate-on-scroll">Lời nói đầu</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card" style="grid-column: span 2;">
+                <h3 class="highlight">Triết học Mác - Lênin</h3>
+                <p>Triết học Mác - Lênin là hệ thống lý luận khoa học và cách mạng của giai cấp công nhân, bộ phận quan
+                    trọng nhất của chủ nghĩa Mác - Lênin. Đây không chỉ là công cụ để nhận thức thế giới mà còn là vũ
+                    khí sắc bén để cải tạo xã hội.</p>
+                <div class="example-box" style="margin-top: 1.5rem;">
+                    <strong>Cốt lõi:</strong> Sự kết hợp giữa chủ nghĩa duy vật và phép biện chứng tạo nên chủ nghĩa duy
+                    vật biện chứng - nấc thang phát triển cao nhất của tư duy triết học nhân loại.
+                </div>
+            </div>
+            <div class="card">
+                <h3>Vấn đề cơ bản</h3>
+                <p>Mối quan hệ giữa vật chất và ý thức là vấn đề cơ bản của triết học. Câu hỏi về cái nào có trước, cái
+                    nào quyết định cái nào luôn là tâm điểm của lịch sử tư tưởng.</p>
+            </div>
+            <div class="card">
+                <h3>Tầm quan trọng</h3>
+                <p>Nghiên cứu mối quan hệ này giúp ta hình thành thế giới quan khoa học và phương pháp luận đúng đắn
+                    trong mọi hoạt động thực tiễn hàng ngày.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="matter">
+        <h2 class="section-title animate-on-scroll">I. Phạm trù Vật chất</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <img src="images/matter.png" alt="Vật chất" style="width: 100%; border-radius: 16px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                <h3 class="highlight">Định nghĩa V.I. Lênin</h3>
+                <p>"Vật chất là một phạm trù triết học dùng để chỉ <span class="highlight">thực tại khách quan</span>
+                    được đem lại cho con người trong cảm giác..."</p>
+                <div class="example-box">
+                    <strong>Phân tích sâu:</strong> Vật chất là nguồn gốc của ý thức, quyết định nội dung và khả năng
+                    sáng tạo. Ý thức chỉ tác động ngược lại thông qua hoạt động thực tiễn của con người.
+                </div>
+            </div>
+            <div class="card">
+                <h3>Thực tại khách quan</h3>
+                <p>Mọi vật thể xung quanh chúng ta: từ các hành tinh trong vũ trụ đến các tế bào nhỏ bé, đều là vật
+                    chất.</p>
+                <div class="example-box">
+                    <strong>Điều kiện:</strong> Sức mạnh của ý thức phụ thuộc vào trình độ phản ánh, mức độ thâm nhập
+                    vào quần chúng và trình độ tổ chức của con người.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consciousness" style="background: rgba(123, 97, 255, 0.02);">
+        <h2 class="section-title animate-on-scroll">II. Nguồn gốc & Bản chất Ý thức</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <h3>Bản chất phản ánh</h3>
+                <p>Ý thức không phản ánh thụ động. Nếu phản ánh đúng quy luật, nó thúc đẩy thành công. Nếu sai, nó dẫn
+                    đến thất bại.</p>
+                <div class="example-box">
+                    <strong>Sáng tạo:</strong> Hiện thực hóa mục đích, cải tạo thế giới chính là sự tác động tích cực
+                    nhất của ý thức con người.
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/consciousness.png" alt="Ý thức" style="width: 100%; border-radius: 16px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                <h3>Kết cấu Ý thức</h3>
+                <p>Tri thức là yếu tố quan trọng nhất. Ngoài ra còn có tình cảm, ý chí giúp con người vượt qua khó
+                    khăn.</p>
+                <div class="example-box">
+                    <strong>Lưu ý:</strong> Không được thụ động, ỷ lại, tránh rơi vào tình trạng lười suy nghĩ, lười
+                    lao động.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="relationship">
+        <h2 class="section-title animate-on-scroll">III. Mối quan hệ Biện chứng</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <h3 class="highlight">Vật chất quyết định</h3>
+                <p>Vật chất là điều kiện tiên quyết. Thế giới được cải tạo - đó là sự tác động tích cực của ý thức dựa
+                    trên nền tảng vật chất.</p>
+                <div class="example-box">
+                    <strong>Quyết định:</strong> Ý thức có thể quyết định hành động đúng hay sai, thành công hay thất
+                    bại dựa trên định hướng đúng đắn.
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dialectics.png" alt="Biện chứng" style="width: 100%; border-radius: 16px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                <h3 class="highlight">Tác động ngược lại</h3>
+                <p>Ý thức tác động thông qua thực tiễn. Trình độ thâm nhập của tư tưởng vào con người quyết định sức
+                    mạnh của nó.</p>
+                <div class="example-box">
+                    <strong>Cảnh báo:</strong> Nếu ý thức phản ánh sai hiện thực, hành động sẽ đi ngược lại quy luật
+                    khách quan, gây tác dụng tiêu cực.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="meaning">
+        <h2 class="section-title animate-on-scroll">IV. Ý nghĩa Phương pháp luận</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <h3>1. Xuất phát từ hiện thực</h3>
+                <p>Phải dựa vào thực tế để đánh giá, xác định phương hướng. Tránh thói quen chỉ căn cứ vào nhu cầu,
+                    niềm tin cảm tính.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary); padding-left: 1rem;">
+                    <li>Phân tích đối tượng vật chất.</li>
+                    <li>Buộc đối tượng thể hiện quy luật.</li>
+                    <li>Xây dựng kế hoạch dựa trên thực tế.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>2. Phát huy tính năng động</h3>
+                <p>Phát huy sức mạnh hiếu học, tìm tòi cái mới. Tuyệt đối không thụ động, rèn luyện tu dưỡng thường
+                    xuyên.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary); padding-left: 1rem;">
+                    <li>Không bỏ cuộc giữa chừng.</li>
+                    <li>Chủ động tìm tòi sáng tạo.</li>
+                    <li>Nâng cao năng lực bản thân.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples" style="background: rgba(123, 97, 255, 0.03);">
+        <h2 class="section-title animate-on-scroll">V. Ví dụ Minh họa</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <h3>Quyết tâm trong chiến đấu</h3>
+                <p>Trước mỗi trận đánh, quân đội thường làm quyết tâm thư - đây là cách phát huy mặt tích cực của ý
+                    thức để tác động vào thực tiễn.</p>
+            </div>
+            <div class="card">
+                <h3>Tự phê bình & Phê bình</h3>
+                <p>Rút ra nhược điểm để tiến bộ, khắc phục mặt tiêu cực là quá trình ý thức tự điều chỉnh để cải thiện
+                    thực tại khách quan.</p>
+            </div>
+            <div class="card">
+                <h3>Giáo dục nhận thức</h3>
+                <p>Thông qua các phong trào thực tiễn để bài trừ đạo đức giả và tư tưởng cục bộ địa phương.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reflection">
+        <h2 class="section-title animate-on-scroll">VI. Liên hệ Bản thân</h2>
+        <div class="grid animate-on-scroll">
+            <div class="card">
+                <h4 class="highlight">1. Nhận thức thực tế</h4>
+                <p>Xác định yếu tố khách quan ảnh hưởng đời sống. Hiểu rõ những gì còn thiếu thốn để có hành động phù
+                    hợp.</p>
+            </div>
+            <div class="card">
+                <h4 class="highlight">2. Phát triển tri thức</h4>
+                <p>Tri thức là quan trọng nhất trong kết cấu ý thức. Cần chú trọng phát triển trí tuệ bản thân hàng
+                    ngày.</p>
+            </div>
+            <div class="card">
+                <h4 class="highlight">3. Tiếp thu chọn lọc</h4>
+                <p>Luôn mở lòng với kiến thức mới nhưng phải có sự chọn lọc, không chủ quan trong mọi tình huống.</p>
+            </div>
+            <div class="card">
+                <h4 class="highlight">4. Góc nhìn đa chiều</h4>
+                <p>Khi giải thích hiện thực, cần xét cả yếu tố vật chất lẫn tinh thần, cả khách quan và điều kiện khách
+                    quan.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-bubble" id="chat-bubble" style="overflow: hidden; padding: 0; border: 2px solid var(--secondary-accent);">
+            <img src="images/ai_avatar.png" alt="AI" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <div>
+                    <strong>AI Assistant</strong>
+                    <p style="font-size: 0.7rem; opacity: 0.7; margin: 0;">Trợ lý Triết học Meta-Phils</p>
+                </div>
+                <button id="close-chat"
+                    style="background: none; border: none; color: #fff; cursor: pointer; font-size: 1.2rem;">&times;</button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">Xin chào! Tôi là AI Meta-Phils. Bạn cần giải đáp gì về Vật chất và Ý thức
+                    không?</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Nhập câu hỏi của bạn...">
+                <button id="send-chat">Gửi</button>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="logo footer-logo">META-PHILS</div>
+                <p>Dự án thuyết trình Triết Học Mác - Lênin về mối quan hệ giữa Vật chất và Ý thức.</p>
+                <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.6;">Content based on Studocu resources.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Khám phá</h4>
+                <ul>
+                    <li><a href="#hero">Trang chủ</a></li>
+                    <li><a href="#matter">Vật chất</a></li>
+                    <li><a href="#consciousness">Ý thức</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Tài liệu</h4>
+                <ul>
+                    <li><a href="#">Giáo trình Triết Học</a></li>
+                    <li><a href="#">Bài viết tham khảo</a></li>
+                    <li><a href="#">Liên hệ nhóm</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            &copy; 2026 Presentation Project. Design with &hearts; for Philosophy.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
